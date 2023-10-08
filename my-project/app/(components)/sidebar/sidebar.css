@@ -1,0 +1,39 @@
+*{
+    padding: 0PX;
+    margin: 0px;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+.sidebar{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    padding: 3rem 2rem;
+    background: rgb(34, 29, 51);
+    width: 20%;
+    height: 100vh;
+    color: lightsalmon;
+
+}
+.sidebar h1{
+cursor: pointer;
+}
+.sidebar-1{
+    display: flex;
+    margin-top: 4rem;
+    flex-direction: column;
+    gap: 4rem;
+    font-size: 1.4rem;
+    color: white;
+} 
+.sidebar-1 li{
+border-bottom:0.6px solid salmon;
+padding-bottom: 5PX;
+cursor: pointer;
+border-radius: 5PX;
+
+
+}
+

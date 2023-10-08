@@ -1,0 +1,74 @@
+*{
+    padding: 0PX;
+    margin: 0px;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+
+}
+.students{
+ position: absolute;   
+ top: 0;
+ left: 20%;
+ background: linear-gradient(90deg, rgba(209,229,241,1) 0%, rgba(246,207,203,1) 100%);
+ width: 80%;
+ height:200vh ;
+}
+.students h1{
+    color: white;
+    text-align: center;
+    font-size: 3.5rem;
+    border-bottom: 1px solid #fa8072;
+    width: 20%;
+    margin: auto;
+padding-top: 30px;
+}
+.table{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+}
+.tHead{
+    display: flex;
+    gap: 70px;
+    margin-top: 20px;
+    color: black;
+
+}
+.tHead h2{
+    /* border-bottom: 1px solid white; */
+    padding-right: 4rem;
+    text-align: left;
+    margin-bottom: 2rem;
+}
+
+.tBody{
+    display: flex;
+    gap: 70px;
+    margin-top: 20px;
+    color: black;
+    text-align: left;
+
+}
+.tBody p{
+    padding-right: 4rem;
+    border-right: 1px solid white;
+}
+.tBody button{
+    padding: 9px 18px ;
+    background: grey;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    transition: all 0.3s linear;
+}
+.tBody button:hover{
+   
+    background: rgb(96, 95, 95);
+   
+}
+

@@ -1,0 +1,44 @@
+*{
+    padding: 0PX;
+    margin: 0px;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+
+}
+.teacher{
+    position: absolute;   
+    top: 0;
+    left: 20%;
+    background: linear-gradient(90deg, rgba(209,229,241,1) 0%, rgba(246,207,203,1) 100%);
+    width: 80%;
+    height:200vh ;
+   }
+   .teacher h1{
+    color: white;
+    border-bottom: 1px solid salmon;
+    margin-top: 2rem;
+   }
+   .teacher h2{
+ font-size: 2rem;
+   }
+   .table{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 4rem;
+   }
+   .thead{
+    display: flex;
+    gap: 2rem;
+   }
+   .tbody{
+    display: flex;
+gap: 15rem;text-align: center;
+
+   }
+   .tbody p{
+    font-size: 1.1rem;
+   }
+   

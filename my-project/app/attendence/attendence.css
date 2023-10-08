@@ -1,0 +1,26 @@
+*{
+    padding: 0PX;
+    margin: 0px;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+
+}
+.attendence{
+    position: absolute;   
+    top: 0;
+    left: 20%;
+    background: linear-gradient(90deg, rgba(209,229,241,1) 0%, rgba(246,207,203,1) 100%);
+    width: 80%;
+    height:200vh ;
+   }
+   .attendence h1{
+    text-align: center;
+    color: white;
+    border-bottom: 1px solid salmon;
+    width: 20%;
+    margin: auto;
+    margin-top: 2rem;
+    padding: 2px;
+    font-size: 3rem;
+   }
